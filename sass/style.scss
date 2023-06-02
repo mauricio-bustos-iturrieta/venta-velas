@@ -1,0 +1,401 @@
+* {
+    margin: 5px;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+    text-align: justify;
+  }
+  
+  section .vela-basica .vela1 {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .vela-basica .vela1 {
+    width: 200px;
+    height: 200px;
+  }
+  
+  
+  
+  header nav ul li {
+    display: inline-block;
+    justify-self: center;
+  }
+  
+  
+  
+  section .vela-olor div .imagen-vela-olor {
+    border-style: double;
+    border-color: rgba(255, 228, 196, 0.817);
+  }
+  
+  .fotos-productos .vela-basicas .colores-calidos {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .fotos-productos .vela-basicas .oso-blanco {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .fotos-productos .vela-basicas .sol-luna {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .fotos-productos .vela-basicas .lampara {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .fotos-productos .vela-basicas .a-flor {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .fotos-productos .vela-basicas .a-horno {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .logo .logo-f {
+    width: 250px;
+    height: 250px;
+  }
+  
+  header .links ul li {
+    display: inline-block;
+    justify-content: center;
+  }
+  
+  .promo .sol-y-luna {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .promo .a-flores {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .promo .osoo-blanco {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .promo .lamparaa {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .promo .a-hornoo {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .promo .coloress-calidos {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .promo .olorr {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+  }
+  
+  footer {
+    background-color: #D1974D;
+  }
+  
+  body {
+    background-color: #B9935A;
+  }
+  
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-wraper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 204, 161);
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
+    box-shadow: 3px 3px 5px grey;
+  }
+  
+  body main header.logo .logo-f {
+    font-weight: 700;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav #toggle, nav label {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    nav .menu {
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0;
+    }
+    nav label {
+      display: inline-flex;
+      color: white;
+      cursor: pointer;
+    }
+    nav #toggle:checked ~ .menu {
+      height: 100%;
+    }
+  }
+  header .links ul li {
+    box-shadow: rgb(132, 27, 27);
+  }
+  
+  body, html {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  ul {
+    padding: 0;
+    width: 100%;
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 99px;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: rgb(229, 255, 0);
+  }
+  
+  li:last-child a {
+    margin-right: 0;
+  }
+  
+  a:link, a:visited, a:focus {
+    background: rgb(240, 160, 68);
+  }
+  
+  a:hover {
+    background: rgb(207, 167, 91);
+  }
+  
+  a:active {
+    background: rgb(255, 255, 255);
+    color: white;
+  }
+  
+  a:links {
+    text-align: center;
+  }
+  
+  body main header h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+  }
+  
+  body main header h3 {
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+  }
+  
+  body main header h2 {
+    text-align: center;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  section .vela-olor div .caract-principales li {
+    text-align: center;
+  }
+  
+  section .vela-olor h2 {
+    text-align: center;
+  }
+  
+  a:link, a:visited, a:active {
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .CONT-GRILLAS {
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG1 img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG2 img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG3 img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG4 img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG5 img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG6 img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG7 img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG8 img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG1 img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG2 img {
+    grid-column: 2/3;
+    grid-row: 2/-2;
+  }
+  
+  .CONT-GRILLAS .GRILLA-IMG6 img {
+    grid-column: 3/-3;
+    grid-row: -5/-3;
+  }
+  //pie de pagina//
+  .pie-pagina .hijo1 .hijo2 .face {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .pie-pagina .hijo1 .hijo2 .wpp {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .pie-pagina .hijo1 .hijo2 .insta {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .pie-pagina .maps {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .pie-paginaa .maps {
+    width: 200px;
+    height: 200px;
+  }
+  .pie-pagina .hijo1 .hijo2 li {
+    display: inline-block;
+  }
+  .pie-paginaa .hijo3 un .face {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .pie-paginaa .hijo3 un .wpp {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .pie-paginaa .hijo3 un .insta {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .pie-paginaa .hijo3 un li {
+    display: inline-block;
+  }
+  @media (max-width: 500px) {
+    .pie-paginaa .hijo3 {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 500px) {
+    .pie-paginaa .hijo1 .hijo2 {
+      flex-direction: column;
+    }
+  }
+  //fin del pie de pagina//
+  @media (max-width: 500px) {
+    .promo {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 500px) {
+    .CONT-GRILLAS {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 500px) {
+    .logo .logo-f {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 500px) {
+    .section {
+      flex-direction: column;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
