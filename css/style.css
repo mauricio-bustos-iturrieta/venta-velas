@@ -72,8 +72,7 @@ section .vela-olor div .imagen-vela-olor{
 }
 .logo .logo-f{
     width: 250px;
-    height: 250px;
-    margin-left: 400px; 
+    height: 250px; 
 
 }
 header .links ul li{
@@ -307,8 +306,28 @@ body,html {
     grid-column: 3/-3;
     grid-row: -5/-3;
 }
-@media (max-width: 575.98px) {
-    .table-responsive-sm {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
+@media (max-width: 400px) {
+    .pie-paginaa .hijo3 {
+      flex-direction: column;
     }}
+     @media (max-width: 400px) {
+      .pie-paginaa .hijo1 .hijo2 {
+      flex-direction: column;
+        }}
+        @media (max-width: 400px) {
+            .promo {
+              flex-direction: column;
+            }}
+            @media (max-width: 500px) {
+                .CONT-GRILLAS {
+                  flex-direction: column;
+                }}
+                @media (max-width: 400px) {
+                    .logo .logo-f {
+                      flex-direction: column;
+                    }}            
+
+                    @media (max-width: 400px) {
+                        .section {
+                          flex-direction: column;
+                        }}
