@@ -11,33 +11,23 @@
 .vela-basica .vela1 {
   width: 200px;
   height: 200px;
+  transition: height 1s;
 }
 
 header .nav-link ul li {
-  display: inline-block;
   text-align: center;
-}
-
-header .links ul li {
   display: inline-block;
-  text-align: center;
-}
-
-.nav-links {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
 .nav-link {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   background-color: rgb(223, 204, 161);
   padding: 1rem 1.5rem;
   border-radius: 0.4rem;
-  box-shadow: 3px 3px 5px grey;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.49);
 }
 
 section .vela-olor div .imagen-vela-olor {
@@ -55,8 +45,8 @@ section .vela-olor div .imagen-vela-olor {
   color: white;
 }
 
-a:link, a:visited, a:focus {
-  background: rgb(240, 160, 68);
+a:link, a:focus {
+  background: rgb(215, 178, 118);
 }
 
 @media (max-width: 768px) {
@@ -144,12 +134,8 @@ header .links ul li {
   justify-content: center;
 }
 
-footer {
-  background-color: #D1974D;
-}
-
 body {
-  background-color: #B9935A;
+  background-image: linear-gradient(to left, rgb(239, 219, 189), rgb(225, 177, 107));
 }
 
 * {
@@ -263,8 +249,6 @@ a:link, a:visited, a:active {
 
 .cont-grillas {
   display: grid;
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(2, 1fr);
@@ -274,8 +258,8 @@ a:link, a:visited, a:active {
 .cont-grillas .grilla-img img {
   width: 200px;
   height: 200px;
-  grid-column: 1/3;
-  grid-row: 1/3;
+  background-color: red;
+  transition: height 1s;
 }
 
 .logo {
@@ -286,6 +270,7 @@ a:link, a:visited, a:active {
 .logo .logo-f {
   width: 250px;
   height: 250px;
+  transition: height 1s;
 }
 
 .vela-basica {
@@ -296,6 +281,7 @@ a:link, a:visited, a:active {
 .vela-basica .vela1 {
   width: 200px;
   height: 200px;
+  transition: height 1s;
 }
 
 .grilla-index {
@@ -311,6 +297,10 @@ a:link, a:visited, a:active {
 .imagen-vela-olor {
   width: 200px;
   height: 200px;
+}
+
+footer {
+  background-color: #D1974D;
 }
 
 .pie-paginaa {
@@ -361,8 +351,8 @@ a:link, a:visited, a:active {
   height: 25px;
 }
 
-.pie-paginaa .hijo3 un li {
-  display: inline-block;
+.pie-pagina .hijo2 {
+  text-align: center;
 }
 
 @media (max-width: 500px) {
@@ -405,7 +395,6 @@ a:link, a:visited, a:active {
     flex-direction: column;
   }
 }
-
 form {
   /* Centrar el formulario en la página */
   margin: 0 auto;
@@ -463,6 +452,16 @@ textarea {
 
 button {
   margin-left: 0.5em;
+}
+
+
+.cont-grillas .grilla-img {
+  transition: 1s;
+}
+
+.cont-grillas .grilla-img :hover {
+  transform: skew(0deg, 180deg);
+  transition: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */

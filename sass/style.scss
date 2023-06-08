@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 5px;
   list-style: none;
@@ -7,43 +8,34 @@
   text-align: justify;
 }
 
-
-
 .vela-basica .vela1 {
   width: 200px;
   height: 200px;
+  transition: height 1s;
 }
-//barra nav//
+
 header .nav-link ul li {
-  display: inline-block;
   text-align: center;
+  display: inline-block;
   
-}
-header .links ul li {
-  display: inline-block;
-  text-align: center;
-}
-.nav-links {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
 .nav-link {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   background-color: rgb(223, 204, 161);
   padding: 1rem 1.5rem;
   border-radius: 0.4rem;
-  box-shadow: 3px 3px 5px grey;
-  
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.49);
 }
+
 section .vela-olor div .imagen-vela-olor {
   border-style: double;
   border-color: rgba(255, 228, 196, 0.817);
 }
+
 .nav-link ul {
   display: flex;
   gap: 2rem;
@@ -54,9 +46,10 @@ section .vela-olor div .imagen-vela-olor {
   color: white;
 }
 
-a:link, a:visited, a:focus {
-  background: rgb(240, 160, 68);
+a:link, a:focus {
+  background: rgb(215, 178, 118);
 }
+
 @media (max-width: 768px) {
   .nav-link ul {
     flex-direction: column;
@@ -75,7 +68,7 @@ a:link, a:visited, a:focus {
 header .links ul li {
   box-shadow: rgb(132, 27, 27);
 }
-//IMG//
+
 .fotos-productos .vela-basicas .colores-calidos {
   width: 200px;
   height: 200px;
@@ -89,6 +82,7 @@ header .links ul li {
 .fotos-productos .vela-basicas .sol-luna {
   width: 200px;
   height: 200px;
+ 
 }
 
 .fotos-productos .vela-basicas .lampara {
@@ -142,12 +136,10 @@ header .links ul li {
   justify-content: center;
 }
 
-footer {
-  background-color: #D1974D;
-}
-//body//
+
+
 body {
-  background-color: #B9935A;
+  background-image: linear-gradient(to left,rgb(239,219, 189),rgb(225, 177, 107) );
 }
 
 * {
@@ -155,8 +147,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 body main header.logo .logo-f {
   font-weight: 700;
@@ -195,30 +185,35 @@ a:active {
   background: rgb(255, 255, 255);
   color: white;
 }
-//////////////////////////////////////////h1,2,3,4..////////////////////////////////////////////////
-.c{
+
+.c {
   font-size: large;
 }
-.t-productos{
+
+.t-productos {
   text-align: center;
   font-weight: 100;
   font-family: sans-serif;
 }
-.texto-promos{
+
+.texto-promos {
   text-align: center;
   font-weight: 100;
   font-family: sans-serif;
 }
-.texto-contacto{
+
+.texto-contacto {
   text-align: center;
   font-weight: 100;
   font-family: sans-serif;
 }
-h4{
+
+h4 {
   margin: 20px 20px;
   font-style: italic;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
 body main header h1 {
   text-align: center;
   font-style: italic;
@@ -230,11 +225,13 @@ body main header h3 {
   font-style: italic;
   font-family: serif;
 }
-.h2{
+
+.h2 {
   text-align: center;
   font-style: italic;
   font-family: "Times New Roman", Times, serif;
 }
+
 body main header h2 {
   text-align: center;
   font-style: italic;
@@ -253,58 +250,66 @@ a:link, a:visited, a:active {
   text-decoration: none;
   transition: 0.5s;
 }
-/////////////////////////////////////////////////////grillas///////////////////////////////////////////////
+//////////////////////////////////////////grillas/////////////////////////////////////////////////////////////
 .cont-grillas {
-  display: grid ;
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
+  display: grid;
   width: 100%;
   height: 100%;
- grid-template-columns:repeat( 2,1fr);
- 
- justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
 }
 
 .cont-grillas .grilla-img img {
   width: 200px;
   height: 200px;
-  grid-column: 1 / 3;
-  grid-row: 1 / 3;
+  background-color: red;
+  transition: height 1s;
 }
 
-.logo{
+.logo {
   display: grid;
   justify-content: center;
 }
+
 .logo .logo-f {
   width: 250px;
   height: 250px;
+  transition: height 1s;
 }
-.vela-basica{
+
+.vela-basica {
   display: grid;
   justify-content: center;
 }
+
 .vela-basica .vela1 {
   width: 200px;
   height: 200px;
+  transition: height 1s;
 }
-.grilla-index{
-  display: grid ;
+
+.grilla-index {
+  display: grid;
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
   height: 100%;
- grid-template-columns:repeat( 2,1fr);
- justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
 }
-.imagen-vela-olor{
+
+.imagen-vela-olor {
   width: 200px;
   height: 200px;
 }
-//pie de pagina//
-.pie-paginaa{
+//////////////////////////////////////////////footer////////////////////////////////////////////////////////
+footer {
+  background-color: #D1974D;
+}
+.pie-paginaa {
   height: 100%;
 }
+
 .pie-pagina .hijo1 .hijo2 .face {
   width: 25px;
   height: 25px;
@@ -349,14 +354,14 @@ a:link, a:visited, a:active {
   height: 25px;
 }
 
-.pie-paginaa .hijo3 un li {
-  display: inline-block;
+.pie-pagina .hijo2{
+  text-align: center;
 }
-////////////////////////////////////////////////display//////////////////////////////////////////////////
+/////////////////////////////////////////////////responsive//////////////////////////////////////////////////
 @media (max-width: 500px) {
   .pie-paginaa .hijo3 {
     flex-direction: column;
-   }
+  }
 }
 @media (max-width: 500px) {
   .pie-paginaa .hijo1 .hijo2 {
@@ -368,15 +373,14 @@ a:link, a:visited, a:active {
     flex-direction: column;
   }
 }
-
 @media (max-width: 500px) {
   .cont-grillas {
     flex-direction: column;
   }
 }
-@media (max-width:500px){
-  .cont-grillas .grilla-img img{
-    flex-direction:column;
+@media (max-width: 500px) {
+  .cont-grillas .grilla-img img {
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {
@@ -389,15 +393,12 @@ a:link, a:visited, a:active {
     flex-direction: column;
   }
 }
-@media (max-width:500px){
+@media (max-width: 500px) {
   .grilla-index {
-  flex-direction: column;
+    flex-direction: column;
   }
 }
 
-
-/*# sourceMappingURL=style.css.map */
-//css del formulario//
 form {
   /* Centrar el formulario en la página */
   margin: 0 auto;
@@ -428,11 +429,9 @@ label {
 input,
 textarea {
   font: 1em sans-serif;
-
   /* Tamaño uniforme del campo de texto */
   width: 300px;
   box-sizing: border-box;
-
   /* Hacer coincidir los bordes del campo del formulario */
   border: 1px solid #999;
   scroll-behavior: smooth;
@@ -446,7 +445,6 @@ textarea:focus {
 textarea {
   /* Alinear los campos de texto multilínea con sus etiquetas */
   vertical-align: top;
-
   /* Proporcionar espacio para escribir texto */
   height: 5em;
 }
@@ -457,5 +455,15 @@ textarea {
 }
 
 button {
-  margin-left: .5em;
+  margin-left: 0.5em;
+}
+
+/*# sourceMappingURL=style.css.map */
+//////////////////////////////////////////////////animaciones//////////////////////////////////////////////
+.cont-grillas .grilla-img{
+transition: 1s;
+}
+.cont-grillas .grilla-img :hover{
+  transform: skew(0deg,180deg);
+  transition: 1s;
 }
