@@ -1,0 +1,28 @@
+header .nav-link ul li {
+    text-align: center;
+    display: inline-block;
+    
+  }
+  
+  .nav-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(98, 73, 13);
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.49);
+  }
+  .nav-link ul {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-link a {
+    color: black;
+  }
+  
+  a:link, a:focus {
+    background: rgb(215, 178, 118);
+  }  

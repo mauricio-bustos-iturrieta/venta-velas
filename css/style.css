@@ -8,47 +8,6 @@
   text-align: justify;
 }
 
-.vela-basica .vela1 {
-  width: 200px;
-  height: 200px;
-  transition: height 1s;
-}
-
-header .nav-link ul li {
-  text-align: center;
-  display: inline-block;
-}
-
-.nav-link {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  background-color: rgb(223, 204, 161);
-  padding: 1rem 1.5rem;
-  border-radius: 0.4rem;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.49);
-}
-
-section .vela-olor div .imagen-vela-olor {
-  border-style: double;
-  border-color: rgba(255, 228, 196, 0.817);
-}
-
-.nav-link ul {
-  display: flex;
-  gap: 2rem;
-}
-
-.nav-link a {
-  text-decoration: none;
-  color: white;
-}
-
-a:link, a:focus {
-  background: rgb(215, 178, 118);
-}
-
 @media (max-width: 768px) {
   .nav-link ul {
     flex-direction: column;
@@ -57,7 +16,7 @@ a:link, a:focus {
   }
   .nav-link {
     display: inline-flex;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
   }
   .nav-link #toggle:checked ~ .menu {
@@ -65,73 +24,7 @@ a:link, a:focus {
   }
 }
 header .links ul li {
-  box-shadow: rgb(132, 27, 27);
-}
-
-.fotos-productos .vela-basicas .colores-calidos {
-  width: 200px;
-  height: 200px;
-}
-
-.fotos-productos .vela-basicas .oso-blanco {
-  width: 200px;
-  height: 200px;
-}
-
-.fotos-productos .vela-basicas .sol-luna {
-  width: 200px;
-  height: 200px;
-}
-
-.fotos-productos .vela-basicas .lampara {
-  width: 200px;
-  height: 200px;
-}
-
-.fotos-productos .vela-basicas .a-flor {
-  width: 200px;
-  height: 200px;
-}
-
-.fotos-productos .vela-basicas .a-horno {
-  width: 200px;
-  height: 200px;
-}
-
-.promo .sol-y-luna {
-  width: 200px;
-  height: 200px;
-}
-
-.promo .a-flores {
-  width: 200px;
-  height: 200px;
-}
-
-.promo .osoo-blanco {
-  width: 200px;
-  height: 200px;
-}
-
-.promo .lamparaa {
-  width: 200px;
-  height: 200px;
-}
-
-.promo .a-hornoo {
-  width: 200px;
-  height: 200px;
-}
-
-.promo .coloress-calidos {
-  width: 200px;
-  height: 200px;
-}
-
-.promo .olorr {
-  width: 200px;
-  height: 200px;
-  justify-content: center;
+  box-shadow: rgb(0, 0, 0);
 }
 
 body {
@@ -179,180 +72,12 @@ a:hover {
 
 a:active {
   background: rgb(255, 255, 255);
-  color: white;
-}
-
-.c {
-  font-size: large;
-}
-
-.t-productos {
-  text-align: center;
-  font-weight: 100;
-  font-family: sans-serif;
-}
-
-.texto-promos {
-  text-align: center;
-  font-weight: 100;
-  font-family: sans-serif;
-}
-
-.texto-contacto {
-  text-align: center;
-  font-weight: 100;
-  font-family: sans-serif;
-}
-
-h4 {
-  margin: 20px 20px;
-  font-style: italic;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-body main header h1 {
-  text-align: center;
-  font-style: italic;
-  font-family: serif;
-}
-
-body main header h3 {
-  text-align: center;
-  font-style: italic;
-  font-family: serif;
-}
-
-.h2 {
-  text-align: center;
-  font-style: italic;
-  font-family: "Times New Roman", Times, serif;
-}
-
-body main header h2 {
-  text-align: center;
-  font-style: italic;
-  font-family: "Times New Roman", Times, serif;
-}
-
-section .vela-olor div .caract-principales li {
-  text-align: left;
-}
-
-section .vela-olor h2 {
-  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 a:link, a:visited, a:active {
   text-decoration: none;
   transition: 0.5s;
-}
-
-.cont-grillas {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-}
-
-.cont-grillas .grilla-img img {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  transition: height 1s;
-}
-
-.logo {
-  display: grid;
-  justify-content: center;
-}
-
-.logo .logo-f {
-  width: 250px;
-  height: 250px;
-  transition: height 1s;
-}
-
-.vela-basica {
-  display: grid;
-  justify-content: center;
-}
-
-.vela-basica .vela1 {
-  width: 200px;
-  height: 200px;
-  transition: height 1s;
-}
-
-.grilla-index {
-  display: grid;
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-}
-
-.imagen-vela-olor {
-  width: 200px;
-  height: 200px;
-}
-
-footer {
-  background-color: #D1974D;
-}
-
-.pie-paginaa {
-  height: 100%;
-}
-
-.pie-pagina .hijo1 .hijo2 .face {
-  width: 25px;
-  height: 25px;
-}
-
-.pie-pagina .hijo1 .hijo2 .wpp {
-  width: 25px;
-  height: 25px;
-}
-
-.pie-pagina .hijo1 .hijo2 .insta {
-  width: 25px;
-  height: 25px;
-}
-
-.pie-pagina .maps {
-  width: 200px;
-  height: 200px;
-}
-
-.pie-paginaa .maps {
-  width: 200px;
-  height: 200px;
-}
-
-.pie-pagina .hijo1 .hijo2 li {
-  display: inline-block;
-}
-
-.pie-paginaa .hijo3 un .face {
-  width: 25px;
-  height: 25px;
-}
-
-.pie-paginaa .hijo3 un .wpp {
-  width: 25px;
-  height: 25px;
-}
-
-.pie-paginaa .hijo3 un .insta {
-  width: 25px;
-  height: 25px;
-}
-
-.pie-pagina .hijo2 {
-  text-align: center;
 }
 
 @media (max-width: 500px) {
@@ -454,6 +179,270 @@ button {
   margin-left: 0.5em;
 }
 
+
+header .nav-link ul li {
+  text-align: center;
+  display: inline-block;
+}
+
+.nav-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(98, 73, 13);
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.49);
+}
+
+.nav-link ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link a {
+  color: black;
+}
+
+a:link, a:focus {
+  background: rgb(215, 178, 118);
+}
+
+body main header h1 {
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+  color: black;
+}
+
+.h2 {
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body main header h2 {
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+section .vela-olor h2 {
+  text-align: center;
+}
+
+body main header h3 {
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+}
+
+h4 {
+  margin: 20px 20px;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.texto-contacto {
+  text-align: center;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+section .vela-olor div .caract-principales .c {
+  text-align: left;
+  margin: 20px 20px;
+}
+
+.h4 {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px 20px;
+}
+
+.t-productos {
+  text-align: center;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.texto-promos {
+  text-align: center;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: #D1974D;
+}
+
+.pie-pagina .hijo1 .hijo2 .face {
+  width: 25px;
+  height: 25px;
+}
+
+.pie-pagina .hijo1 .hijo2 .wpp {
+  width: 25px;
+  height: 25px;
+}
+
+.pie-pagina .hijo1 .hijo2 .insta {
+  width: 25px;
+  height: 25px;
+}
+
+.pie-pagina .maps {
+  width: 300px;
+  height: 200px;
+}
+
+.pie-pagina .hijo1 .hijo2 li {
+  display: inline-block;
+}
+
+.pie-pagina .hijo2 {
+  text-align: center;
+}
+
+.fotos-productos .vela-basicas .colores-calidos {
+  width: 200px;
+  height: 200px;
+}
+
+.fotos-productos .vela-basicas .oso-blanco {
+  width: 200px;
+  height: 200px;
+}
+
+.fotos-productos .vela-basicas .sol-luna {
+  width: 200px;
+  height: 200px;
+}
+
+.fotos-productos .vela-basicas .lampara {
+  width: 200px;
+  height: 200px;
+}
+
+.fotos-productos .vela-basicas .a-flor {
+  width: 200px;
+  height: 200px;
+}
+
+.fotos-productos .vela-basicas .a-horno {
+  width: 200px;
+  height: 200px;
+}
+
+.promo .sol-y-luna {
+  width: 200px;
+  height: 200px;
+}
+
+.promo .a-flores {
+  width: 200px;
+  height: 200px;
+}
+
+.promo .osoo-blanco {
+  width: 200px;
+  height: 200px;
+}
+
+.promo .lamparaa {
+  width: 200px;
+  height: 200px;
+}
+
+.promo .a-hornoo {
+  width: 200px;
+  height: 200px;
+}
+
+.promo .coloress-calidos {
+  width: 200px;
+  height: 200px;
+}
+
+.promo .olorr {
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+}
+
+.logo-fe {
+  width: 75px;
+  height: 50px;
+  justify-content: right;
+}
+
+.f-promo {
+  justify-content: center;
+}
+
+.vela-basica .vela1 {
+  width: 200px;
+  height: 200px;
+  transition: height 1s;
+}
+
+section .vela-olor div .imagen-vela-olor {
+  border-style: double;
+  border-color: rgba(255, 228, 196, 0.817);
+}
+
+.cont-grillas {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.cont-grillas .grilla-img img {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: height 1s;
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+}
+
+.logo .logo-f {
+  width: 250px;
+  height: 250px;
+  transition: height 1s;
+}
+
+.vela-basica {
+  display: grid;
+  justify-content: center;
+}
+
+.vela-basica .vela1 {
+  width: 200px;
+  height: 200px;
+  transition: height 1s;
+}
+
+.grilla-index {
+  display: grid;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2, 200px);
+  justify-content: center;
+}
+
+.imagen-vela-olor {
+  width: 200px;
+  height: 200px;
+}
 
 .cont-grillas .grilla-img {
   transition: 1s;
